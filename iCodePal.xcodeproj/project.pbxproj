@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6A557DC2845D4E800258339 /* iCodePalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A557DB2845D4E800258339 /* iCodePalApp.swift */; };
+		B6A557DE2845D4E800258339 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A557DD2845D4E800258339 /* ContentView.swift */; };
+		B6A557E02845D4EA00258339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A557DF2845D4EA00258339 /* Assets.xcassets */; };
+		B6A557E32845D4EA00258339 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A557E22845D4EA00258339 /* Preview Assets.xcassets */; };
+		B6A557EE2845D4EA00258339 /* iCodePalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A557ED2845D4EA00258339 /* iCodePalTests.swift */; };
+		B6A557F82845D4EA00258339 /* iCodePalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A557F72845D4EA00258339 /* iCodePalUITests.swift */; };
+		B6A557FA2845D4EA00258339 /* iCodePalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A557F92845D4EA00258339 /* iCodePalUITestsLaunchTests.swift */; };
+		B6A558092845D54800258339 /* CPPQuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A558082845D54800258339 /* CPPQuestionManager.swift */; };
+		B6A558112845D75A00258339 /* HashMapQuestions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6A5580F2845D75A00258339 /* HashMapQuestions.cpp */; };
+		B6A558142845D76D00258339 /* DynamicProgramQuestions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6A558122845D76D00258339 /* DynamicProgramQuestions.cpp */; };
+		B6A558162845D7A000258339 /* CPPObjC_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A558152845D7A000258339 /* CPPObjC_Wrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6A557EA2845D4EA00258339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A557D02845D4E800258339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A557D72845D4E800258339;
+			remoteInfo = iCodePal;
+		};
+		B6A557F42845D4EA00258339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A557D02845D4E800258339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A557D72845D4E800258339;
+			remoteInfo = iCodePal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6A557D82845D4E800258339 /* iCodePal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCodePal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A557DB2845D4E800258339 /* iCodePalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCodePalApp.swift; sourceTree = "<group>"; };
+		B6A557DD2845D4E800258339 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6A557DF2845D4EA00258339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6A557E22845D4EA00258339 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6A557E42845D4EA00258339 /* iCodePal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iCodePal.entitlements; sourceTree = "<group>"; };
+		B6A557E92845D4EA00258339 /* iCodePalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCodePalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A557ED2845D4EA00258339 /* iCodePalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCodePalTests.swift; sourceTree = "<group>"; };
+		B6A557F32845D4EA00258339 /* iCodePalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCodePalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A557F72845D4EA00258339 /* iCodePalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCodePalUITests.swift; sourceTree = "<group>"; };
+		B6A557F92845D4EA00258339 /* iCodePalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCodePalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6A558082845D54800258339 /* CPPQuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPPQuestionManager.swift; sourceTree = "<group>"; };
+		B6A5580B2845D73000258339 /* iCodePal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCodePal-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6A5580F2845D75A00258339 /* HashMapQuestions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashMapQuestions.cpp; sourceTree = "<group>"; };
+		B6A558102845D75A00258339 /* HashMapQuestions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashMapQuestions.hpp; sourceTree = "<group>"; };
+		B6A558122845D76D00258339 /* DynamicProgramQuestions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicProgramQuestions.cpp; sourceTree = "<group>"; };
+		B6A558132845D76D00258339 /* DynamicProgramQuestions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DynamicProgramQuestions.hpp; sourceTree = "<group>"; };
+		B6A558152845D7A000258339 /* CPPObjC_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPObjC_Wrapper.mm; sourceTree = "<group>"; };
+		B6A558172845D7B700258339 /* CPPObjC_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPObjC_Wrapper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6A557D52845D4E800258339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A557E62845D4EA00258339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A557F02845D4EA00258339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6A557CF2845D4E800258339 = {
+			isa = PBXGroup;
+			children = (
+				B6A557DA2845D4E800258339 /* iCodePal */,
+				B6A557EC2845D4EA00258339 /* iCodePalTests */,
+				B6A557F62845D4EA00258339 /* iCodePalUITests */,
+				B6A557D92845D4E800258339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6A557D92845D4E800258339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A557D82845D4E800258339 /* iCodePal.app */,
+				B6A557E92845D4EA00258339 /* iCodePalTests.xctest */,
+				B6A557F32845D4EA00258339 /* iCodePalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6A557DA2845D4E800258339 /* iCodePal */ = {
+			isa = PBXGroup;
+			children = (
+				B6A558072845D51B00258339 /* Managers */,
+				B6A558062845D51400258339 /* CPP */,
+				B6A557DB2845D4E800258339 /* iCodePalApp.swift */,
+				B6A557DD2845D4E800258339 /* ContentView.swift */,
+				B6A557DF2845D4EA00258339 /* Assets.xcassets */,
+				B6A557E42845D4EA00258339 /* iCodePal.entitlements */,
+				B6A557E12845D4EA00258339 /* Preview Content */,
+			);
+			path = iCodePal;
+			sourceTree = "<group>";
+		};
+		B6A557E12845D4EA00258339 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6A557E22845D4EA00258339 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6A557EC2845D4EA00258339 /* iCodePalTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A557ED2845D4EA00258339 /* iCodePalTests.swift */,
+			);
+			path = iCodePalTests;
+			sourceTree = "<group>";
+		};
+		B6A557F62845D4EA00258339 /* iCodePalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A557F72845D4EA00258339 /* iCodePalUITests.swift */,
+				B6A557F92845D4EA00258339 /* iCodePalUITestsLaunchTests.swift */,
+			);
+			path = iCodePalUITests;
+			sourceTree = "<group>";
+		};
+		B6A558062845D51400258339 /* CPP */ = {
+			isa = PBXGroup;
+			children = (
+				B6A558172845D7B700258339 /* CPPObjC_Wrapper.h */,
+				B6A558152845D7A000258339 /* CPPObjC_Wrapper.mm */,
+				B6A558102845D75A00258339 /* HashMapQuestions.hpp */,
+				B6A5580F2845D75A00258339 /* HashMapQuestions.cpp */,
+				B6A558132845D76D00258339 /* DynamicProgramQuestions.hpp */,
+				B6A558122845D76D00258339 /* DynamicProgramQuestions.cpp */,
+				B6A5580B2845D73000258339 /* iCodePal-Bridging-Header.h */,
+			);
+			path = CPP;
+			sourceTree = "<group>";
+		};
+		B6A558072845D51B00258339 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B6A558082845D54800258339 /* CPPQuestionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6A557D72845D4E800258339 /* iCodePal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A557FD2845D4EA00258339 /* Build configuration list for PBXNativeTarget "iCodePal" */;
+			buildPhases = (
+				B6A557D42845D4E800258339 /* Sources */,
+				B6A557D52845D4E800258339 /* Frameworks */,
+				B6A557D62845D4E800258339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCodePal;
+			productName = iCodePal;
+			productReference = B6A557D82845D4E800258339 /* iCodePal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6A557E82845D4EA00258339 /* iCodePalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A558002845D4EA00258339 /* Build configuration list for PBXNativeTarget "iCodePalTests" */;
+			buildPhases = (
+				B6A557E52845D4EA00258339 /* Sources */,
+				B6A557E62845D4EA00258339 /* Frameworks */,
+				B6A557E72845D4EA00258339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A557EB2845D4EA00258339 /* PBXTargetDependency */,
+			);
+			name = iCodePalTests;
+			productName = iCodePalTests;
+			productReference = B6A557E92845D4EA00258339 /* iCodePalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6A557F22845D4EA00258339 /* iCodePalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A558032845D4EA00258339 /* Build configuration list for PBXNativeTarget "iCodePalUITests" */;
+			buildPhases = (
+				B6A557EF2845D4EA00258339 /* Sources */,
+				B6A557F02845D4EA00258339 /* Frameworks */,
+				B6A557F12845D4EA00258339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A557F52845D4EA00258339 /* PBXTargetDependency */,
+			);
+			name = iCodePalUITests;
+			productName = iCodePalUITests;
+			productReference = B6A557F32845D4EA00258339 /* iCodePalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6A557D02845D4E800258339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B6A557D72845D4E800258339 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+					B6A557E82845D4EA00258339 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B6A557D72845D4E800258339;
+					};
+					B6A557F22845D4EA00258339 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B6A557D72845D4E800258339;
+					};
+				};
+			};
+			buildConfigurationList = B6A557D32845D4E800258339 /* Build configuration list for PBXProject "iCodePal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6A557CF2845D4E800258339;
+			productRefGroup = B6A557D92845D4E800258339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6A557D72845D4E800258339 /* iCodePal */,
+				B6A557E82845D4EA00258339 /* iCodePalTests */,
+				B6A557F22845D4EA00258339 /* iCodePalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6A557D62845D4E800258339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A557E32845D4EA00258339 /* Preview Assets.xcassets in Resources */,
+				B6A557E02845D4EA00258339 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A557E72845D4EA00258339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A557F12845D4EA00258339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6A557D42845D4E800258339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A558092845D54800258339 /* CPPQuestionManager.swift in Sources */,
+				B6A557DE2845D4E800258339 /* ContentView.swift in Sources */,
+				B6A557DC2845D4E800258339 /* iCodePalApp.swift in Sources */,
+				B6A558162845D7A000258339 /* CPPObjC_Wrapper.mm in Sources */,
+				B6A558142845D76D00258339 /* DynamicProgramQuestions.cpp in Sources */,
+				B6A558112845D75A00258339 /* HashMapQuestions.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A557E52845D4EA00258339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A557EE2845D4EA00258339 /* iCodePalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A557EF2845D4EA00258339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A557FA2845D4EA00258339 /* iCodePalUITestsLaunchTests.swift in Sources */,
+				B6A557F82845D4EA00258339 /* iCodePalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6A557EB2845D4EA00258339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A557D72845D4E800258339 /* iCodePal */;
+			targetProxy = B6A557EA2845D4EA00258339 /* PBXContainerItemProxy */;
+		};
+		B6A557F52845D4EA00258339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A557D72845D4E800258339 /* iCodePal */;
+			targetProxy = B6A557F42845D4EA00258339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6A557FB2845D4EA00258339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6A557FC2845D4EA00258339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6A557FE2845D4EA00258339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iCodePal/iCodePal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iCodePal/Preview Content\"";
+				DEVELOPMENT_TEAM = MF6426NK34;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewserna.iCodePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iCodePal/CPP/iCodePal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6A557FF2845D4EA00258339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iCodePal/iCodePal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iCodePal/Preview Content\"";
+				DEVELOPMENT_TEAM = MF6426NK34;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewserna.iCodePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iCodePal/CPP/iCodePal-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6A558012845D4EA00258339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6426NK34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewserna.iCodePalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCodePal.app/Contents/MacOS/iCodePal";
+			};
+			name = Debug;
+		};
+		B6A558022845D4EA00258339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6426NK34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewserna.iCodePalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCodePal.app/Contents/MacOS/iCodePal";
+			};
+			name = Release;
+		};
+		B6A558042845D4EA00258339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6426NK34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewserna.iCodePalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iCodePal;
+			};
+			name = Debug;
+		};
+		B6A558052845D4EA00258339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6426NK34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewserna.iCodePalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iCodePal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6A557D32845D4E800258339 /* Build configuration list for PBXProject "iCodePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A557FB2845D4EA00258339 /* Debug */,
+				B6A557FC2845D4EA00258339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A557FD2845D4EA00258339 /* Build configuration list for PBXNativeTarget "iCodePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A557FE2845D4EA00258339 /* Debug */,
+				B6A557FF2845D4EA00258339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A558002845D4EA00258339 /* Build configuration list for PBXNativeTarget "iCodePalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A558012845D4EA00258339 /* Debug */,
+				B6A558022845D4EA00258339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A558032845D4EA00258339 /* Build configuration list for PBXNativeTarget "iCodePalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A558042845D4EA00258339 /* Debug */,
+				B6A558052845D4EA00258339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6A557D02845D4E800258339 /* Project object */;
+}
